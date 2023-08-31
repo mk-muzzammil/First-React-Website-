@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <title>Practise Website|Tailwind CSS</title>
+
+</head>
+
+<body class="bg-slate-50 font-Bai_Jamjuree">
+  <!-- NAv Bar  -->
+  <nav class="bg-white flex flex-row items-center justify-between w-full h-16 px-4">
+    <!-- ===Logo Container -->
+    <div class="font-extrabold text-black text-xl ">
+      MK Projects
+    </div>
+
+    <!-- anchor Tags Cintainer -->
+    <div class=" ">
+
+      <ul class="md:flex md:flex-row md:gap-6 hidden">
+        <li class="hover:text-purple-600 hover:font-bold hover:cursor-pointer">Home</li>
+        <li class="hover:text-purple-600 hover:font-bold hover:cursor-pointer">Page</li>
+        <li class="hover:text-purple-600 hover:font-bold hover:cursor-pointer">Contact Me</li>
+        <li class="hover:text-purple-600 hover:font-bold hover:cursor-pointer">About Me</li>
+      </ul>
+    </div>
+
+    <!-- buttons Container -->
+    <div>
+
+      <img class="md:hidden hover:cursor-pointer" src="../imagesIcons/icon-menu.svg" alt="Menu Icon">
+      <button class="bg-transparent border border-slate-400 border-solid rounded-xl px-6 py-2 font-semibold hover:bg-purple-500 hover:text-white hidden md:inline-block" >Log In</button>
+      <button class="bg-transparent border border-slate-400 border-solid rounded-xl px-6 py-2 font-semibold hover:bg-purple-500 hover:text-white hidden md:inline-block">Sign Up</button>
+    </div>
+
+
+  </nav>
+  <!-- nav bar Ends Here  -->
+  <!-- Hero Section -->
+  <div class="w-full h-auto bg-[url('../imagesIcons/bg-header-mobile.png')] bg-center bg-cover bg-no-repeat md:bg-[url('../imagesIcons/bg-header-desktop.png')] md:bg-cover md:bg-center md:bg-no-repeat py-8" >
+    <div class="flex justify-center items-center border-2 border-red border-solid ">
+      <div class="contentContainer flex flex-col gap-4 items-center p-4 ">
+        <img class="h-16 w-16" src="../imagesIcons/logo.svg" alt="Logo">
+        <h1 class="text-[hsl(210,10%,33%)] text-3xl font-bold text-center">A history of everything you copy </h1>
+        <p class="text-center text-[hsl(201,11%,66%)] p-2 w-[70%] italic">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices. </p>
+        <div class="buttonContainer flex flex-row gap-4">
+          <button class="text-white bg-[hsl(171,66%,44%)] rounded-2xl px-4 py-1 text-center">Download For iOS</button>
+          <button class="text-white bg-[hsl(233,100%,69%)] rounded-2xl px-4 py-1 text-center">Download For Mac</button>
+        </div>
+      </div>
+
+    </div>
+    <!-- <img class="hidden md:block w-full h-full" src="../image"sIcons/desktop.jpg" alt="Desktop">
+    <img class="md:hidden w-full max-h-full border-solid border-blue-600 border-2" src="../imagesIcons/Mobile.jpg" alt="Mobile "> -->
+  </div>
+  <!-- Hero Section Ends Here -->
+
+  <!-- Keep tarck Section Starts Here  -->
+
+  <main class="flex flex-col gap-8">
+
+    <div class="keepTrackSection flex flex-col items-center p-4 m-2">
+      
+      <h1 class="text-[hsl(210,10%,33%)] text-2xl font-semibold text-center">Keep track of your snippets </h1>
+      
+      <p class="text-center text-[hsl(201,11%,66%)]  sm:w-[70%] md:w-[65%] lg:w-[49%]  italic mb-8">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything. </p>
+      
+      <div class="flex flex-row gap-8 mt-4">
+        <div class="flex-2">
+          <img src="../imagesIcons/image-computer.png" alt="Computer Image">
+        </div>
+        <div class="content  px-4 flex flex-col gap-3">
+          <h3 class="text-[hsl(210,10%,33%)] text-left text-xl font-semibold italic">Quick Search</h3>
+          <p class="italic text-[hsl(201,11%,66%)] w-[60%]">Easily search your snippets by content, category, web address, application, and more. </p>
+          <h3 class="text-[hsl(210,10%,33%)] text-left text-xl font-bold italic">iCloud Sync</h3>
+          <p class="italic text-[hsl(201,11%,66%)] w-[60%]">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
+          <h3 class="text-[hsl(210,10%,33%)] text-left text-xl font-bold italic">Complete History</h3>
+          <p class="italic text-[hsl(201,11%,66%)] w-[60%]">
+            Retrieve any snippets from the first moment you started using the app.
+          </p>
+
+
+        </div>
+      </div>
+
+      </div>
+      <!-- Keep tarck Section Ends Here  -->
+
+      <!-- Acess ClipBoard Anywhere Starts Here  -->
+      <div class="flex flex-col items-center">
+        <h1 class="text-[hsl(210,10%,33%)] text-2xl font-semibold text-center">Access Clipboard Anywhere  </h1>
+      
+      <p class="text-center text-[hsl(201,11%,66%)]  sm:w-[70%] md:w-[65%] lg:w-[49%]  italic mb-8">Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+
+      <img class="w-[600px]" src="../imagesIcons/image-devices.png" alt="devices">
+      </div>
+      <!-- Acess ClipBoard Anywhere Ends Here  -->
+
+      <!-- Supercharge section starts here  -->
+      <div class="flex flex-col items-center">
+        <h1 class="text-[hsl(210,10%,33%)] text-2xl font-semibold text-center">Supercharge your workflow</h1>
+      
+        <p class="text-center text-[hsl(201,11%,66%)]  sm:w-[70%] md:w-[65%] lg:w-[49%]  italic mb-8">We’ve got the tools to boost your productivity.</p>
+        
+        <div class="superChargeCards flex flex-row gap-3 justify-between  w-[750px] border-2 border-red border-solid p-1">
+          <div class="card flex flex-col justify-center items-center gap-2 ">
+            <img  class="self-center" src="../imagesIcons/icon-blacklist.svg" alt="List ">
+            <h1 class="text-[hsl(210,10%,33%)] text-lg font-semibold text-center">Create blacklists</h1>
+            <p class="text-center text-[hsl(201,11%,66%)]  italic mb-8">Ensure sensitive information never makes its way to your clipboard by excluding certain sources. </p>
+          </div>
+          <div class="card flex flex-col justify-center items-center gap-2 ">
+            <img class="self-center"  src="../imagesIcons/icon-text.svg" alt="List ">
+            <h1 class="text-[hsl(210,10%,33%)] text-lg font-semibold text-center">Plain text snippets</h1>
+            <p class="text-center text-[hsl(201,11%,66%)]  italic mb-8"> 
+              Remove unwanted formatting from copied text for a consistent look. </p>
+          </div>
+          <div class="card flex flex-col justify-center items-center gap-2 ">
+            <img class="self-center"  src="../imagesIcons/icon-preview.svg" alt="List ">
+            <h1 class="text-[hsl(210,10%,33%)] text-lg font-semibold text-center">Sneak preview </h1>
+            <p class="text-center text-[hsl(201,11%,66%)]  italic mb-8">Quick preview of all snippets on your Clipboard for easy access.</p>
+          </div>
+
+        </div>
+      
+      
+      
+      
+      </div>
+      <!-- SuperCharge Wrokflow Section ends here  -->
+
+      <!-- Logo Starts Here  -->
+      <div class="logosContainer flex flex-row w-full justify-evenly my-6">
+        <img src="../imagesIcons/logo-google.png" alt="Google logo">
+        <img src="../imagesIcons/logo-ibm.png" alt="IBM logo">
+        <img src="../imagesIcons/logo-microsoft.png" alt="Microsoft logo">
+        <img src="../imagesIcons/logo-hp.png" alt="HP logo">
+        <img src="../imagesIcons/logo-vector-graphics.png" alt="Vector Graphics logo">
+
+      </div>
+      <!-- Logo Ends Here  -->
+      
+      <!-- Clipboard For IOS and MaCOS Section starts here -->
+      <div class="flex justify-center items-center">
+        <div class="contentContainerLAstSec flex flex-col gap-1 items-center p-4 ">
+          <h1 class="text-[hsl(210,10%,33%)] text-3xl font-bold text-center">Clipboard for iOS and Mac OS</h1>
+          <p class="text-center text-[hsl(201,11%,66%)] p-2 w-[70%] italic">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+          <div class="buttonContainer flex flex-row gap-4">
+            <button class="text-white bg-[hsl(171,66%,44%)] rounded-2xl px-4 py-1 text-center">Download For iOS</button>
+            <button class="text-white bg-[hsl(233,100%,69%)] rounded-2xl px-4 py-1 text-center">Download For Mac</button>
+          </div>
+        </div>
+  
+      </div>
+      <!-- Clipboard For IOS and MaCOS Section ends here -->
+    </main>
+    <footer class="flex flex-row justify-around ">
+      <div class="leftLogoContainer h-16 w-16">
+        <img class="" src="../imagesIcons/logo.svg" alt="Logo">
+      </div>
+      <div class="centerContainer">
+        <div>
+          
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="rightIconsContainer">
+        <img src="../imagesIcons/icon-facebook.svg" alt="Facebook">
+        <img src="../imagesIcons/icon-twitter.svg" alt="Twitter">
+        <img src="../imagesIcons/icon-instagram.svg" alt="Instagram">
+
+
+
+      </div>
+
+
+
+
+
+
+    </footer>
+  
+</body>
+</html>
